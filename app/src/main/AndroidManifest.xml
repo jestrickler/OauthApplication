@@ -22,7 +22,10 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="edu.osumc.bmi.oauthapplication"/>
+                <!--<data android:scheme="edu.osumc.bmi.oauthapplication"/>-->
+                <data android:scheme="https"
+                  android:host="edu.osumc.bmi.oauthapplication"
+                  android:path="/oauth2redirect"/>
             </intent-filter>
         </activity>
 
