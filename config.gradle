@@ -1,0 +1,7 @@
+ext {
+    clientId = "242389526169-avhcnatlmhi6f1aerpuq6tdtk5as0f2c.apps.googleusercontent.com"
+    redirectUri = "edu.osumc.bmi.oauthapplication:/oauth2redirect"
+    authScopes = "openid email profile"
+    authUri = "https://accounts.google.com/o/oauth2/v2/auth"
+    tokenUri = "https://www.googleapis.com/oauth2/v4/token"
+}
