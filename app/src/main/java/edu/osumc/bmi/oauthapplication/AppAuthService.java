@@ -71,13 +71,13 @@ public class AppAuthService {
         if (response != null) {
             service.performTokenRequest(response.createTokenExchangeRequest(), (response1, ex1) -> {
                     authState.update(response1, ex1);
-                    callback.onComplete(authState);
+                    callback.onComplete();
             });
         }
     }
 
     public interface TokenResponseCallback {
-        void onComplete(AuthState authState);
+        void onComplete();
     }
 
 }

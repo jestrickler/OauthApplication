@@ -2,4 +2,6 @@
     <string name="app_name">OauthApplication</string>
     <string name="login">Login</string>
     <string name="login_cancelled">Login cancelled</string>
+    <string name="authenticated">authenticated</string>
+    <string name="not_authenticated">not authenticated</string>
 </resources>
